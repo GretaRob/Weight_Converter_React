@@ -1,0 +1,35 @@
+* {
+    background-color: #dd1177;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.container {
+    font-size: 1.5rem;
+    color: #f5eff2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    padding-right: 2rem;
+    margin-bottom: 5rem;
+}
+
+input[type=number] {
+    font-size: 1rem;
+    padding: 0.2rem 0;
+    width: 10rem;
+    border: 0.1rem solid #b1a9aa;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    background-color: white;
+}
